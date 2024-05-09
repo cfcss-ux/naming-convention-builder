@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Item Sorting Example</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Naming Convention Builder</h1>
+  <label for="delimiterInput">Delimiter:</label>
+  <input type="text" id="delimiterInput" value="-">
+  <br>
+  <br>
+
+  <div id="header-row">
+    <input type="text" value="Name" disabled><input type="text" value="Value" disabled><input type="text" value="SortOrder" disabled>
+  </div>
+  <br>
+  <div id="itemContainer">
+    <div class="item-row">
+      <input type="text" class="item-name" value="Example"><input type="text" class="item-content" value="ExampleValue"><input type="number" class="item-weight" value="1">
+    </div>
+  </div>
+
+  <button id="addRowButton">Add Row</button>
+  <button id="rerenderButton">Re-render</button>
+  <br>
+  <br>
+  <span><strong>Result</strong></span>
+  <br>
+  <div id="renderArea"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.item-row {
+    margin-bottom: 10px;
+}
+  
+.item-row input, #header-row input {
+    margin-right: 10px;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    font-size: 18px;
+}
